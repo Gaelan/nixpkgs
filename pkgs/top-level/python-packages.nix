@@ -7347,6 +7347,8 @@ in {
 
   rxv     = callPackage ../development/python-modules/rxv     { };
 
+  w1thermsensor = callPackage ../development/python-modules/w1thermsensor { };
+
 });
 
 in fix' (extends overrides packages)

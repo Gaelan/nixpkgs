@@ -26502,4 +26502,6 @@ in
   vpsfree-client = callPackage ../tools/virtualization/vpsfree-client {};
 
   gpio-utils = callPackage ../os-specific/linux/kernel/gpio-utils.nix { };
+
+  w1thermsensor = with python3.pkgs; toPythonApplication w1thermsensor;
 }
